@@ -1,0 +1,58 @@
+.model {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 5rem;
+    label {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin: 1rem 1rem;
+    }
+    .error {
+        color: red;
+
+    }
+    .field{
+        border: 2px solid black;
+        margin: 0.5rem auto;
+        width: 40%;
+    }
+    select {
+        height: 2rem;
+        font-size: 1rem;
+        margin: 1rem;
+        width: 12rem;
+    }
+    input {
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        width: 14rem;
+        height: 2rem;
+        margin: 1rem;
+    }
+    h5 {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+    .button {
+        cursor: pointer;
+        border: 1px solid #8a2b06;
+        padding: 0.5rem 2rem;
+        border-radius: 25px;
+        margin: 1rem;
+
+      }
+      .button:hover,    
+      .button:active {
+        background-color: #5a1a01;
+        border-color: #5a1a01;
+        color: whitesmoke;
+      }
+      
+      .regular {
+        background-color: #8a2b06;
+        color: white;
+      }
+      .light {
+        color: #8a2b06;
+      }
+      
+}
